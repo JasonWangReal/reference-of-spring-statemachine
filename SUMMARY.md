@@ -10,7 +10,7 @@
   * [4. 模块](/Part II. Getting started/4. Modules.md)
   * [5. 使用Gradle](/Part II. Getting started/5. Using Gradle.md)
   * [6. 使用Maven](/Part II. Getting started/6. Using Maven.md)
-  * [7. Developing your first Spring Statemachine application](/Part II. Getting started/7. Developing your first Spring Statemachine application.md)
+  * [7. 开发你的第一个Spring Statemachine应用](/Part II. Getting started/7. Developing your first Spring Statemachine application.md)
 * [Part III. What's New](/Part III. What’s New/README.md)
   * [8. In 1.1](/Part III. What’s New/8. In 1.1.md)
   * [9. In 1.2](/Part III. What’s New/9. In 1.2.md)
