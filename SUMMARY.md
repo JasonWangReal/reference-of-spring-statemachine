@@ -2,10 +2,19 @@
 
 * [前言](/Preface.md)
 * [Part I. 简介](/Part I. Introduction/README.md)
-    * [1. 背景](/Part I. Introduction/1. Background.md)
-    * [2. 使用场景](/Part I. Introduction/2. Usage Scenarios.md)
+  * [1. 背景](/Part I. Introduction/1. Background.md)
+  * [2. 使用场景](/Part I. Introduction/2. Usage Scenarios.md)
 * [Part II. 开始](/Part II. Getting started/README.md)
-    * [3. 系统要求](/Part II. Getting started/3. System Requirements.md)
-    * [4. 模块](/Part II. Getting started/4. Modules.md)
-    * [5. 使用Gradle](/Part II. Getting started/5. Using Gradle.md)
-    * [6. 使用Maven](/Part II. Getting started/6. Using Maven.md)
+  * [3. 系统要求](/Part II. Getting started/3. System Requirements.md)
+  * [4. 模块](/Part II. Getting started/4. Modules.md)
+  * [5. 使用Gradle](/Part II. Getting started/5. Using Gradle.md)
+  * [6. 使用Maven](/Part II. Getting started/6. Using Maven.md)
+* [Part III. What's New](/Part III. What’s New/README.md)
+  * [8. In 1.1](/Part III. What’s New/8. In 1.1.md)
+  * [9. In 1.2](/Part III. What’s New/9. In 1.2.md)
+  * [9.1. In 1.2.8](/Part III. What’s New/9.1 In 1.2.8.md)
+* [Part IV. 使用SSM](/Part IV. Using Spring Statemachine/README.md)
+  * [10. Statemachine Configuration](/Part IV. Using Spring Statemachine/10. Statemachine Configuration.md)
+
+
+
