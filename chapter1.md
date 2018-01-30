@@ -1,6 +1,6 @@
 # Part I. 简介 {#introduction}
 
-Spring Statemachine（SSM）是提供给应用开发者使其可以在Spring应用中使用传统状态机的一套框架。SSM致力于提供以下特性：
+`Spring Statemachine（SSM）`是提供给应用开发者使其可以在Spring应用中使用传统状态机的一套框架。SSM致力于提供以下特性：
 - 单级状态机用于简单场景
 - 多级状态机用于简化复杂的状态配置
 - 区域状态机用于更复杂的状态配置
