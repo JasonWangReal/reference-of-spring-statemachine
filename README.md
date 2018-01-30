@@ -20,12 +20,12 @@ _Copies of this document may be made for your own use and for distribution to ot
 
 这篇参考文档包含以下部分。
 
-Par I，“简介” 这篇文档的简介
+- Par I，“简介” 这篇文档的简介
 
-Part IV，“状态机使用” 说明Spring Statemachine（SSM）的用法
+- Part IV，“状态机使用” 说明Spring Statemachine（SSM）的用法
 
-Part VI，“状态机示例” 更具体的状态机示例
+- Part VI，“状态机示例” 更具体的状态机示例
 
-Part VII，“FAQ”
+- Part VII，“FAQ”
 
-Part VIII，“附录”
+- Part VIII，“附录”
