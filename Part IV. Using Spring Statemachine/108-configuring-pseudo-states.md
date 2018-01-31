@@ -2,6 +2,7 @@
 
 Simply mark a particular state as initial state by using initial() method. There are two methods where one takes extra argument to define an initial action. This initial action is good for example initialize extended state variables.
 
+
 ```java
 @Configuration
 @EnableStateMachine
