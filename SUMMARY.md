@@ -24,5 +24,6 @@
     * [10.5 配置Transitions](/Part IV. Using Spring Statemachine/10.5 Configuring Transitions.md)
     * [10.6 配置Guards](/Part IV. Using Spring Statemachine/10.6 Configuring Guards.md)
     * [10.7 配置Actions](/Part IV. Using Spring Statemachine/10.7 Configuring Actions.md)
-      * [10.7.1 State Actions](Part IV. Using Spring Statemachine/10.7.1 State Actions.md)
+      * [10.7.1 状态Actions](Part IV. Using Spring Statemachine/10.7.1 State Actions.md)
+      * [10.7.2 转换Action错误处理](Part IV. Using Spring Statemachine/1072-transition-action-error-handling.md)
 
