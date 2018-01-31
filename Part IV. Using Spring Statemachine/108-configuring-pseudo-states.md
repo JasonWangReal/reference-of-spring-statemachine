@@ -1,34 +1,3 @@
-## 10.8 Configuring Pseudo States
+## 10.8 配置伪状态
 
-Simply mark a particular state as initial state by using initial() method. There are two methods where one takes extra argument to define an initial action. This initial action is good for example initialize extended state variables.
-
-
-```java
-@Configuration
-@EnableStateMachine
-public class Config11
-        extends EnumStateMachineConfigurerAdapter<States, Events> {
-
-    @Override
-    public void configure(StateMachineStateConfigurer<States, Events> states)
-            throws Exception {
-        states
-            .withStates()
-                .initial(States.S1, initialAction())
-                .end(States.SF)
-                .states(EnumSet.allOf(States.class));
-    }
-
-    @Bean
-    public Action<States, Events> initialAction() {
-        return new Action<States, Events>() {
-
-            @Override
-            public void execute(StateContext<States, Events> context) {
-                // do something initially
-            }
-        };
-    }
-
-}
-```
+伪状态配置通常是通过配置状态和转换完成的。伪状态自动添加到状态机作为状态。

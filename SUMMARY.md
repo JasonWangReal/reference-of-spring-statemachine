@@ -27,7 +27,7 @@
       * [10.7.1 状态Actions](Part IV. Using Spring Statemachine/10.7.1 State Actions.md)
       * [10.7.2 转换Action错误处理](Part IV. Using Spring Statemachine/1072-transition-action-error-handling.md)
       * [10.7.3 状态Action错误处理](Part IV. Using Spring Statemachine/1073-state-action-error-handling.md)
-    * [10.8 Configuring Pseudo States](Part IV. Using Spring Statemachine/108-configuring-pseudo-states.md)
+    * [10.8 配置伪状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states.md)
       * [10.8.1 Initial State](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1081-initial-state.md)
       * [10.8.2 Terminate State](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1082-terminate-state.md)
       * [10.8.3 History State](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1083-history-state.md)
