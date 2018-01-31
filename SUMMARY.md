@@ -19,7 +19,7 @@
   * [10. 状态机配置](/Part IV. Using Spring Statemachine/10. Statemachine Configuration.md)
     * [10.1 使用enable注解](//Part IV. Using Spring Statemachine/10.1 Using enable annotations.md)
     * [10.2 配置状态](/Part IV. Using Spring Statemachine/10.2 Configuring States.md)
-    * [10.3 Configuring Hierarchical States](/Part IV. Using Spring Statemachine/10.3 Configuring Hierarchical States.md)
+    * [10.3 配置分层状态](/Part IV. Using Spring Statemachine/10.3 Configuring Hierarchical States.md)
     * [10.4 Configuring Regions](/Part IV. Using Spring Statemachine/10.4 Configuring Regions.md)
     * [10.5 Configuring Transitions](/Part IV. Using Spring Statemachine/10.5 Configuring Transitions.md)
     * [10.6 Configuring Guards](/Part IV. Using Spring Statemachine/10.6 Configuring Guards.md)
