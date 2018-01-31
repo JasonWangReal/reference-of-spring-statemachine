@@ -1,10 +1,10 @@
-## 10.8.4 Choice State
+## 10.8.4 选择状态
 
-Choice needs to be defined in both states and transitions to work properly. Mark particular state as choice state by using choice() method. This state needs to match source state when transition is configured for this choice.
+选择需要同时在状态和转换中定义以正常工作。使用`choice()`方法标记指定状态为选中。当在转换中配置这个状态时，该状态需要匹配源状态。
 
-Transition is configured using withChoice() where you define source state and first/then/last structure which is equivalent to normal if/elseif/else. With first and then you can specify a guard just like you’d use a condition with if/elseif clauses.
+使用`withChoice()`定义转换的源状态和`first/then/last`语句块，这些语句块类似于普通的`if/elseif/else`。就像你在`if/elseif`声明中使用条件一样，你可以在`first`和`then`中指定guard。
 
-Transition needs to be able to exist so make sure last is used. Otherwise configuration is ill-formed.
+确保使用`last`来使转换可退出。否则配置将不正确。
 
 ```java
 @Configuration
@@ -60,6 +60,7 @@ public class Config13
 ```
 
 Actions can be executed with both incoming and outgoing transitions of a choice pseudostate. As seeing from below example, one dummy lambda action is defined leading into a choice state and one similar dummy lambda action defined for one outgoing transition where it also define an error action.
+Actions可以通过选择伪状态的传入和传出转换来执行。如以下例子所示，一个匿名lambda action
 
 ```java
 @Configuration
