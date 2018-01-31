@@ -1,6 +1,6 @@
-## 10.8.3 History State
+## 10.8.3 历史状态
 
-History state can be defined once for each individual state machine. You need to choose its state identifier and History.SHALLOW or History.DEEP respectively.
+每个状态机可以定义一次历史状态。你需要分别选择自己的标识符和`History.SHALLOW`或者`History.DEEP`
 
 ```java
 @Configuration
@@ -35,5 +35,4 @@ public class Config12
 
 }
 ```
-
-Also as shown above, optionally it is possible to define a default transition from a history state into a state vertex in a same machine. This transition takes place as a default if for example machine has never been entered, thus no history would be available. If default state transition is not defined, then normal entry into a region is done. This default transition is also used if machine’s history is a final state.
+正如上面示例，在同一个状态机中，可选的可以定义从历史状态到某个状态的默认转换。如果状态机从未被进入过导致没有可用的历史，则该转换将默认发生。如果未定义缺省状态转换，则执行该区域的正常进入。如果状态机的历史是最终状态，那么这个缺省的转换也会被使用。
