@@ -1,8 +1,8 @@
-## 10.8.7 Join State
+## 10.8.7 联合状态
 
-Join needs to be defined in both states and transitions to work properly. Mark particular state as choice state by using join() method. This state doesn’t need to match either source states or target state in a transition configuration.
+联合需要同时在状态和转换中定义以正确工作。使用`join()`方法标记某个状态选中状态。这个状态不需要匹配转换配置中的源状态或目标状态。
 
-Select a target state where transition goes when all source states has been joined. If you use state hosting regions as source, end states of a regions are used as joins. Otherwise you can pick any states from a regions.
+选择一个目标状态，当所有源状态已经连接时，转换进行。如果使用状态托管区域作为源，则区域的结束状态将用作联接。否则你可以选中区域中任意状态。
 
 ```java
 @Configuration
@@ -51,7 +51,7 @@ public class Config15
 }
 ```
 
-It is also possible to have multiple transitions originating from a join state. It this case it is advised to use guards and define those so that only one guard evaluates TRUE at any given time as otherwise transition behaviour is not predicted. This is shown above where guard simply checks if extended state has variables.
+可以有多个来自联接状态的转换。在这种情况下，建议使用guards并对其进行定义，以便在任何给定的时间内只有一个guard对其进行检测是否为TRUE，否则转换行为将不可预知。如下所示，guard只是检查扩展状态是否有变量。
 
 ```java
 @Configuration
