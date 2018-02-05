@@ -1,6 +1,7 @@
-## 10.8.8 Exit/Entry Point States
+## 10.8.8 状态退出/进入点
 
-Exit and Entry Points can be used to do more controlled exit and entry from and into a submachines.
+状态退出/进入点可以用来进行更多从子状态机退出和进入的控制。
+
 
 ```java
 @Configuration
@@ -49,4 +50,4 @@ static class Config21 extends StateMachineConfigurerAdapter<String, String> {
 }
 ```
 
-As shown above you need to mark particular states as exit and entry states. Then you create a normal transitions into those states and also specify withExit() and withEntry() where those states will exit and entry respectively.
+如上所示，你需要标记特定状态为退出和进入的状态。接着创建普通的状态转换，分别用`withExit()`和`withEntry()`定义退出和进入动作。
