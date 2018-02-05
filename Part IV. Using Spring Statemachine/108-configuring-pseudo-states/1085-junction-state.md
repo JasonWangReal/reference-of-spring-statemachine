@@ -1,10 +1,10 @@
-## 10.8.5 Junction State
+## 10.8.5 连接状态
 
-Junction needs to be defined in both states and transitions to work properly. Mark particular state as choice state by using junction() method. This state needs to match source state when transition is configured for this choice.
+连接需要同时在状态和转换中定义以正确工作。使用`junction()`方法标记某个状态选中状态。这个状态需要匹配转换配置中的源状态。
 
-Transition is configured using withJunction() where you define source state and first/then/last structure which is equivalent to normal if/elseif/else. With first and then you can specify a guard just like you’d use a condition with if/elseif clauses.
+使用`withJunction()`定义转换的源状态和`first/then/last`语句块，这些语句块类似于普通的`if/elseif/else`。就像你在`if/elseif`声明中使用条件一样，你可以在`first`和`then`中指定guard。
 
-Transition needs to be able to exist so make sure last is used. Otherwise configuration is ill-formed.
+确保使用`last`来使转换可退出。否则配置将不正确。
 
 ```java
 @Configuration

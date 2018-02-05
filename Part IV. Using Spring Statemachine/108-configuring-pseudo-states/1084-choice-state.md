@@ -59,8 +59,7 @@ public class Config13
 }
 ```
 
-Actions can be executed with both incoming and outgoing transitions of a choice pseudostate. As seeing from below example, one dummy lambda action is defined leading into a choice state and one similar dummy lambda action defined for one outgoing transition where it also define an error action.
-Actions可以通过选择伪状态的传入和传出转换来执行。如以下例子所示，一个匿名lambda action
+Actions可以通过选择伪状态的传入和传出转换来执行。如以下例子所示，一个空的lambda action定义为选中状态，另一个类似的空lambda action定义了传出转换已经错误action。
 
 ```java
 @Configuration
@@ -104,4 +103,4 @@ public class Config23
 }
 ```
 
-> Junction have same api format meaning actions can be defined similarly.
+> 连接有相似的api格式，意味着action也可以类似地定义。
