@@ -1,8 +1,8 @@
-## 10.8.6 Fork State
+## 10.8.6 交叉状态
 
-Fork needs to be defined in both states and transitions to work properly. Mark particular state as choice state by using fork() method. This state needs to match source state when transition is configured for this fork.
+交叉需要同时在状态和转换中定义以正确工作。使用`fork()`方法标记某个状态选中状态。这个状态需要匹配转换配置中的源状态。
 
-Target state needs to be a super state or immediate states in regions. Using a super state as target will take all regions into initial states. Targeting individual state give more controlled entry into regions.
+目标状态必须是区域的父状态或直接状态。使用父状态为目标状态将导致所有区域成为初始化状态。分别针对单个状态定义目标可以获得更多进入区域的控制。
 
 ```java
 @Configuration

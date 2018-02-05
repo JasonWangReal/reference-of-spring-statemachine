@@ -33,7 +33,7 @@
       * [10.8.3 历史状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1083-history-state.md)
       * [10.8.4 选择状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1084-choice-state.md)
       * [10.8.5 连接状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1085-junction-state.md)
-      * [10.8.6 Fork State](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1086-fork-state.md)
+      * [10.8.6 交叉状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1086-fork-state.md)
       * [10.8.7 Join State](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1087-join-state.md)
       * [10.8.8 Exit/Entry Point States](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1088-exitentry-point-states.md)
 
