@@ -59,4 +59,4 @@ public class Config20
 }
 ```
 
-> Difference between choice and junction is purely academic as both are implemented with first/then/last structure. However in theory based on uml model, choice allows only one incoming transition while junction allows multiple incoming transitions. At a code level functionality is pretty much identical.
+> 择和连接的差异纯粹是学术的，因为两者都有`first/then/last`结构块。在基于uml模型的理论中，选择只允许一个传入的转换，而连接允许多个传入的转换。在代码级别的功能几乎完全相同。
