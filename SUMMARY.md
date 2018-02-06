@@ -47,4 +47,5 @@
     * [12.1 Factory via Adapter](Part IV. Using Spring Statemachine/12.1 Factory via Adapter.md)
       * [12.1.1 Adapter Factory Limitations](Part IV. Using Spring Statemachine/12.1.1 Adapter Factory Limitations.md)
     * [12.2 State Machine via Builder](Part IV. Using Spring Statemachine/122-state-machine-via-builder.md)
+  * [13. Using Deferred Events](Part IV. Using Spring Statemachine/13. Using Deferred Events.md)
 
