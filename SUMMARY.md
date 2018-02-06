@@ -54,4 +54,5 @@
   * [16. Using Guards](Part IV. Using Spring Statemachine/16. Using Guards.md)
     * [16.1 SpEL Expressions with Guards](Part IV. Using Spring Statemachine/161-spel-expressions-with-guards.md)
   * [17. Using Extended State](Part IV. Using Spring Statemachine/17. Using Extended State.md)
+  * [18. Using StateContext](Part IV. Using Spring Statemachine/18. Using StateContext.md)
 
