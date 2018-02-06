@@ -51,4 +51,5 @@
   * [14. Using Scopes](Part IV. Using Spring Statemachine/14. Using Scopes.md)
   * [15. Using Actions](Part IV. Using Spring Statemachine/15. Using Actions.md)
     * [15.1 SpEL Expressions with Actions](Part IV. Using Spring Statemachine/151-spel-expressions-with-actions.md)
+  * [16. Using Guards](Part IV. Using Spring Statemachine/16. Using Guards.md)
 
