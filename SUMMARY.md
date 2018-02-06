@@ -39,4 +39,5 @@
     * [10.9 Configuring Common Settings](Part IV. Using Spring Statemachine/109-configuring-common-settings.md)
     * [10.10 Configuring Model](Part IV. Using Spring Statemachine/1010-configuring-model.md)
     * [10.11 Things to Remember](Part IV. Using Spring Statemachine/1011-things-to-remember.md)
+  * [11. State Machine ID](Part IV. Using Spring Statemachine/11. State Machine ID.md)
 
