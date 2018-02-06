@@ -40,4 +40,7 @@
     * [10.10 Configuring Model](Part IV. Using Spring Statemachine/1010-configuring-model.md)
     * [10.11 Things to Remember](Part IV. Using Spring Statemachine/1011-things-to-remember.md)
   * [11. State Machine ID](Part IV. Using Spring Statemachine/11. State Machine ID.md)
+    * [11.1 With @EnableStateMachine](Part IV. Using Spring Statemachine/11. State Machine ID/111-with-enablestatemachine.md)
+    * [11.2 With @EnableStateMachineFactory](Part IV. Using Spring Statemachine/11. State Machine ID/112-with-enablestatemachinefactory.md)
+    * [11.3 With StateMachineModelFactory](Part IV. Using Spring Statemachine/11. State Machine ID/113-with-statemachinemodelfactory.md)
 
