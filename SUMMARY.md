@@ -44,4 +44,6 @@
     * [11.2 With @EnableStateMachineFactory](Part IV. Using Spring Statemachine/112-with-enablestatemachinefactory.md)
     * [11.3 With StateMachineModelFactory](Part IV. Using Spring Statemachine/113-with-statemachinemodelfactory.md)
   * [12. State Machine Factories](Part IV. Using Spring Statemachine/12. State Machine Factories.md)
+    * [12.1 Factory via Adapter](Part IV. Using Spring Statemachine/12.1 Factory via Adapter.md)
+
 
