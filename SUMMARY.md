@@ -52,4 +52,5 @@
   * [15. Using Actions](Part IV. Using Spring Statemachine/15. Using Actions.md)
     * [15.1 SpEL Expressions with Actions](Part IV. Using Spring Statemachine/151-spel-expressions-with-actions.md)
   * [16. Using Guards](Part IV. Using Spring Statemachine/16. Using Guards.md)
+    * [16.1 SpEL Expressions with Guards](Part IV. Using Spring Statemachine/161-spel-expressions-with-guards.md)
 
