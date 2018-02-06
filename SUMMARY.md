@@ -45,5 +45,6 @@
     * [11.3 With StateMachineModelFactory](Part IV. Using Spring Statemachine/113-with-statemachinemodelfactory.md)
   * [12. State Machine Factories](Part IV. Using Spring Statemachine/12. State Machine Factories.md)
     * [12.1 Factory via Adapter](Part IV. Using Spring Statemachine/12.1 Factory via Adapter.md)
+      * [12.1.1 Adapter Factory Limitations](Part IV. Using Spring Statemachine/12.1.1 Adapter Factory Limitations.md)
 
 
