@@ -36,4 +36,7 @@
       * [10.8.6 交叉状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1086-fork-state.md)
       * [10.8.7 联合状态](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1087-join-state.md)
       * [10.8.8 状态退出/进入点](Part IV. Using Spring Statemachine/108-configuring-pseudo-states/1088-exitentry-point-states.md)
+    * [10.9 Configuring Common Settings](Part IV. Using Spring Statemachine/109-configuring-common-settings.md)
+    * [10.10 Configuring Model](Part IV. Using Spring Statemachine/1010-configuring-model.md)
+    * [10.11 Things to Remember](Part IV. Using Spring Statemachine/1011-things-to-remember.md)
 
