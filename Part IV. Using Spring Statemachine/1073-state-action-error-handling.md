@@ -1,4 +1,4 @@
-10.7.3 状态Action错误处理
+### 10.7.3 状态Action错误处理
 
 与转换action错误处理类似的逻辑，可以对状态action定义其行为和进入、退出action异常处理。
 `StateConfigurer`的`stateEntry`，`stateDo`和`stateExit`这些方法用来定义当前`action`的`error`动作。
