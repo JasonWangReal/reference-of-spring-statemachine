@@ -1,0 +1,3 @@
+## 18.1 Stages
+
+Stage is representation of a stage on which a state machine is currently interacting with a user. Current stages are EVENT_NOT_ACCEPTED, EXTENDED_STATE_CHANGED, STATE_CHANGED, STATE_ENTRY, STATE_EXIT, STATEMACHINE_ERROR, STATEMACHINE_START, STATEMACHINE_STOP, TRANSITION, TRANSITION_START and TRANSITION_END which look very familiar as those match how user can interact with listeners as described in Chapter 20, Listening State Machine Events.
